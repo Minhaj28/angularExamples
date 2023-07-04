@@ -1,0 +1,16 @@
+<div class="body">
+    <p class="header">Top News</p>
+
+    <div class="row">
+        <div class="allNews col-md-4 col-lg-3" *ngFor="let data of newsData">
+            <div class="card">
+                <img class="card-img-top" src="{{data.urlToImage}}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{data.title}}</h5>
+                    <p class="card-text">{{data.description}}</p>
+                    <a href="{{data.url}}" class="btn btn-primary" target="_blank">Read More.....</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

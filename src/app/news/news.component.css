@@ -1,0 +1,22 @@
+.body{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #094367;
+    height: 6rem;
+    color: wheat;
+}
+
+.allNews{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.card{
+    background-color: rgb(236, 234, 234);
+}
