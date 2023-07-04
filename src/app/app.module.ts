@@ -9,19 +9,23 @@ import {HttpClientModule} from '@angular/common/http';
 import { NewsapiservicesService } from './service/newsapiservices.service';
 import { ButtonModule } from 'primeng/button';
 import { PasswordModule } from 'primeng/password';
+import { FormsModule } from '@angular/forms';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewsComponent
+    NewsComponent,
+    TemplateDrivenFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ButtonModule,
-    PasswordModule
+    PasswordModule,
+    FormsModule
   ],
   providers: [NewsapiservicesService],
   bootstrap: [AppComponent]
